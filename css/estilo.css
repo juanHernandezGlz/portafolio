@@ -1,0 +1,69 @@
+/* HTML */
+.body{
+    background-color: #212F3C;
+}
+
+#h1Titulo{
+    color: aliceblue;
+}
+
+#Loremm{
+    color: aliceblue;
+}
+
+#h2Titulo{
+    color: aliceblue;
+}
+
+#h6Titulo{
+    color: aliceblue;
+}
+
+/* Quien Soy */
+.containerQuienSoy{
+    display: grid;
+    place-self: center;
+    margin-top: 20%;
+}
+
+.containerr{
+    display: grid;
+    place-items: center;
+}
+
+.tituloQuienSoy{
+    display: grid;
+    place-items: center;
+}
+
+.TextoQuienSoy{
+    display: grid;
+    place-items: center;
+}
+
+/* Sobre mi */
+
+.containerMain{
+    margin-top: 25%;
+}
+
+.tituloSobremi{
+    display: grid;
+    place-items: center;
+}
+
+.divSobreMiv1{
+    display: flex;
+    place-items: center;
+}
+
+.fotoPerfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.divResumen{
+    margin-left: 20px;
+}

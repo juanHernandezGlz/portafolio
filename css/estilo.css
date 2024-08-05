@@ -67,3 +67,51 @@
 .divResumen{
     margin-left: 20px;
 }
+
+.containerTools{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    /* place-items: center; */
+}
+
+.tool-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: calc(33.333% - 40px);
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.tool-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    .tool-item {
+        width: calc(50% - 40px); 
+    }
+}
+
+@media (max-width: 480px) {
+    .tool-item {
+        width: 100%;
+    }
+}
+
+/* .frontend{
+    width: 50%;
+}
+
+.backend{
+    width: 50%;
+}
+
+.herramientas{
+    width: 50%;
+} */
+
